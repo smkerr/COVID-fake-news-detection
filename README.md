@@ -1,1 +1,1 @@
-# ML_Lab_2
+# COVID Fake News Detection
