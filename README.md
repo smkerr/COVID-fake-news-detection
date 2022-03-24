@@ -5,6 +5,7 @@ Fake news represents one of the most pressing issues faced by social media ecosy
 
 While ML has advanced our ability to identify and root out fake news, this approach is not without its limitations. Fake news, by its very nature, is constantly evolving. A ML algorithm capable of detecting fake news with high accuracy at one point in time may become significantly less accurate when applied to news sampled from a later time period. By examining the way in which fake news detection algorithms decay over time, we hope to better understand the limitations of applying ML to the issue of fake news.  
 
+## Academic Question
 Using COVID-19 related social media data, we ask the following question: **To what extent does the context-dependent and fast-moving nature of fake news represent a limitation for ML models?**  
 
 Our project comprises two main components:
@@ -17,7 +18,7 @@ Our project comprises two main components:
 * Lastly, we use methods consistent with those employed by Patwa et al. and Zellers et al. to **create our own dataset containing recent cases of fake and real news**.
 
 ## Evaluation
-* We'll use an F-1 score to evaluate our models' performance:
+We'll use an F-1 score to evaluate our models' performance:
 <img src="https://render.githubusercontent.com/render/math?math=\text{F-1}=\frac{2*Precision*Recall}{Precision+Recall}=\frac{2*TP}{2*TP+FP+FN}">
 
 ## Dependencies
