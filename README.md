@@ -18,7 +18,7 @@ Our project comprises two main components:
 * Lastly, we use methods consistent with those employed by Patwa et al. and Zellers et al. to **create our own dataset containing recent cases of fake and real news**.
 
 ## Evaluation
-We'll use an F-1 score to evaluate our models' performance:
+We'll use an F-1 score to evaluate our models' performance:  
 <img src="https://render.githubusercontent.com/render/math?math=\text{F-1}=\frac{2*Precision*Recall}{Precision+Recall}=\frac{2*TP}{2*TP+FP+FN}">
 
 ## Dependencies
