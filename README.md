@@ -12,10 +12,10 @@ Our project comprises two main components:
 1. Create a fake news detection algorithm using existing COVID-related real and fake news datasets
 1. Measure the decay of our fake news detection algorithm by applying it to recent COVID-related news
 
-## Data 
-* We use the [**COVID-19 Fake News  dataset**](https://paperswithcode.com/dataset/covid-19-fake-news-dataset) introduced by Patwa et al. in [Fighting an Infodemic: COVID-19 Fake News Dataset](https://paperswithcode.com/paper/fighting-an-infodemic-covid-19-fake-news). The dataset comprises 10,700 COVID-related social media posts from various platforms which have been hand-labelled real or fake. 
-  * *Real* posts comprise tweets from credible and relevant sources such as the World Health Organization (WHO) and the Centers for Disease Control and Prevention (CDC) among others.
-  * *Fake* posts include tweets, posts, and articles which make claims about COVID-19 that have been labeled false by credible fact-checking sites such as PolitiFact.com.
+## Data
+* We use the [**COVID-19 Fake News  dataset**](https://paperswithcode.com/dataset/covid-19-fake-news-dataset) introduced by Patwa et al. in [Fighting an Infodemic: COVID-19 Fake News Dataset](https://paperswithcode.com/paper/fighting-an-infodemic-covid-19-fake-news). The dataset comprises 10,700 COVID-related social media posts from various platforms which have been hand-labelled real or fake.
+  * **Real** posts comprise tweets from credible and relevant sources such as the World Health Organization (WHO) and the Centers for Disease Control and Prevention (CDC) among others.
+  * **Fake** posts include tweets, posts, and articles which make claims about COVID-19 that have been labeled false by credible fact-checking sites such as PolitiFact.com.
 * Additionally, we use methods consistent with those employed by Patwa et al. to **create our own dataset containing recent cases of fake and real news**.
 
 ## Evaluation
@@ -31,7 +31,7 @@ We'll use an F-1 score to evaluate our models' performance:
 * sklearn ≥0.20
 * ...
 
-## Contributors 
+## Contributors
 * Hannah Schweren
 * Marco Schildt
 * Steve Kerr
