@@ -19,7 +19,7 @@ Our project comprises two main components:
 * Additionally, we use methods consistent with those employed by Patwa et al. to **create our own dataset containing recent cases of fake and real news**.
 
 ## Evaluation
-We'll use an F-1 score to evaluate our models' performance:  
+We use an F-1 score to evaluate our models' performance:  
 <img src="https://render.githubusercontent.com/render/math?math=\text{F-1}=\frac{2*Precision*Recall}{Precision+Recall}=\frac{2*TP}{2*TP+FP+FN}">
 
 ## Dependencies
@@ -29,7 +29,6 @@ We'll use an F-1 score to evaluate our models' performance:
 * matplotlib
 * nltk
 * sklearn ≥0.20
-* ...
 
 ## Contributors
 * Hannah Schweren
@@ -42,7 +41,3 @@ We'll use an F-1 score to evaluate our models' performance:
 ## Sources
 * [A Heuristic-driven Uncertainty based Ensemble Framework for Fake News Detection in Tweets and News Articles](https://arxiv.org/abs/2104.01791) - basis for our paper
 * [Fighting an Infodemic: COVID-19 Fake News Dataset](https://paperswithcode.com/paper/fighting-an-infodemic-covid-19-fake-news) - dataset
-* ...
-
-## License
-...
